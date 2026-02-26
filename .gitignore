@@ -1,0 +1,22 @@
+# Virtual env
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE
+.idea/
+
+# Logs
+logs/
+
+# Data
+raw_data/
+processed_data/
+
+.DS_Store
+Thumbs.db
+
+*.egg-info/

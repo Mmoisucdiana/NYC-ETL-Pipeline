@@ -1,0 +1,13 @@
+[project]
+name = "nyc_etl"
+version = "0.1.0"
+description = "NYC Taxi ETL pipeline"
+authors = [{ name = "Diana" }]
+dependencies = [
+    "pandas",
+    "pyarrow",
+    "pytest"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
