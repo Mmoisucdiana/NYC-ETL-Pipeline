@@ -5,7 +5,7 @@ from src.logger import logger
 from pathlib import  Path
 
 
-RAW_path = Path("C:/Users/Cristi/PycharmProjects/pythonProject-S3/raw_data/tripdata_2026-01.parquet")
+RAW_path = Path(RAW_path = BASE_DIR / "raw_data" / "tripdata_2026-01.parquet")#add current path 
 
 
 
